@@ -118,7 +118,7 @@ public final class GenerativeModel {
   }
 
   /// The designated initializer for this class.
-  init(name: String,
+  public init(name: String,
        apiKey: String,
        generationConfig: GenerationConfig? = nil,
        safetySettings: [SafetySetting]? = nil,
